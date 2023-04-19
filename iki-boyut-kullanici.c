@@ -12,11 +12,11 @@ main()
         }
        
     }
-    for(i=0; i<3;i++)
+    for(j=0; j<3;j++)
     {
-        for(j=0;j<3;j++)
+        for(i=0;i<3;i++)
         {
-            printf("%d",a[i][j]);
+            printf("%d ",a[i][j]);
         }
         printf("\n");
     }
