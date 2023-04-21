@@ -3,18 +3,22 @@ int fak(int n);
 int kombinasyon (int n, int r);
 main()
 {
-printf("%d",kombinasyon(5,2));
+printf("%d",fak(4));
 	
 }
 int fak(int n)
 {
-	int fak=1;
+	/*int fak=1;
 	for(int i=2;i<=n;i++)
 	{
 	
 		fak=fak*i;}
 		
-	return fak;
+	return fak; */
+	if (n<=1)
+	{ return 1;}
+	else
+	return (n*fak(n-1));
 	
 }
 int kombinasyon (int n, int r)
