@@ -1,4 +1,4 @@
 # C-notlarim
 
 <hr>
-## C calisirken yazdigim kodlar.
+<h2>C calisirken yazdigim kodlar.</h2>
